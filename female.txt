@@ -1,0 +1,373 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Angles"] = Angle(-1.1248985528946, 34.711265563965, -80.706771850586),
+				["UniqueID"] = "2277587741",
+				["Position"] = Vector(2.4931640625, 3.900390625, -0.0113525390625),
+				["Size"] = 0.425,
+				["Fullbright"] = true,
+				["Model"] = "models/pac/jiggle/base_cloth_1_gravity.mdl",
+				["ClassName"] = "model",
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Angles"] = Angle(46.228466033936, -24.891752243042, 147.27581787109),
+				["UniqueID"] = "2109889984",
+				["ClassName"] = "model",
+				["Position"] = Vector(0.0027008056640625, -0.3984375, -2.206787109375),
+				["Bone"] = "pelvis",
+				["Model"] = "models/pac/jiggle/base_jiggle_3_gravity.mdl",
+				["Fullbright"] = true,
+			},
+		},
+		[3] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Bone"] = "pelvis",
+				["ClassName"] = "model",
+				["UniqueID"] = "175712716",
+				["Position"] = Vector(0.0027008056640625, -0.3984375, -2.206787109375),
+				["Color"] = Vector(127, 0, 0),
+				["Fullbright"] = true,
+				["Model"] = "models/pac/jiggle/base_jiggle_3_gravity.mdl",
+				["Angles"] = Angle(-58.296535491943, 41.019069671631, 134.63320922852),
+			},
+		},
+		[4] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Bone"] = "pelvis",
+				["ClassName"] = "model",
+				["UniqueID"] = "2109495994",
+				["Position"] = Vector(0.0027008056640625, -0.3984375, -2.206787109375),
+				["Color"] = Vector(127, 0, 0),
+				["Fullbright"] = true,
+				["Model"] = "models/pac/jiggle/base_jiggle_3_gravity.mdl",
+				["Angles"] = Angle(13.072780609131, -5.3726243972778, 157.42292785645),
+			},
+		},
+		[5] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Angles"] = Angle(-25.648128509521, 11.42986869812, 155.49031066895),
+				["UniqueID"] = "4263581038",
+				["ClassName"] = "model",
+				["Position"] = Vector(0.0027008056640625, -0.3984375, -2.206787109375),
+				["Bone"] = "pelvis",
+				["Model"] = "models/pac/jiggle/base_jiggle_3_gravity.mdl",
+				["Fullbright"] = true,
+			},
+		},
+		[6] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(2.4931640625, 3.900390625, -0.0113525390625),
+				["ClassName"] = "model",
+				["UniqueID"] = "3442800519",
+				["Size"] = 0.425,
+				["Color"] = Vector(142, 63, 63),
+				["Fullbright"] = true,
+				["Model"] = "models/pac/jiggle/base_cloth_1_gravity.mdl",
+				["Angles"] = Angle(-1.1248985528946, 34.711265563965, -123.17433929443),
+			},
+		},
+		[7] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Bone"] = "pelvis",
+				["ClassName"] = "model",
+				["UniqueID"] = "715282736",
+				["Position"] = Vector(0.0027008056640625, -0.3984375, -2.206787109375),
+				["Color"] = Vector(127, 0, 0),
+				["Fullbright"] = true,
+				["Model"] = "models/pac/jiggle/base_jiggle_3_gravity.mdl",
+				["Angles"] = Angle(71.508865356445, -75.114822387695, 83.831680297852),
+			},
+		},
+	},
+	["self"] = {
+		["UniqueID"] = "2135419779",
+		["ClassName"] = "group",
+	},
+},
+[2] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["URL"] = "https://github.com/NAARS290/pac3-cont/blob/master/NARUTO%20RUN.txt",
+												["ClassName"] = "custom_animation",
+												["AnimationType"] = "stance",
+												["UniqueID"] = "3263123731",
+											},
+										},
+									},
+									["self"] = {
+										["Arguments"] = "weapon_ninjaskunai",
+										["Invert"] = true,
+										["Event"] = "weapon_class",
+										["UniqueID"] = "1315045987",
+										["EditorExpand"] = true,
+										["ClassName"] = "event",
+									},
+								},
+							},
+							["self"] = {
+								["Event"] = "is_crouching",
+								["EditorExpand"] = true,
+								["UniqueID"] = "2627685925",
+								["ClassName"] = "event",
+							},
+						},
+					},
+					["self"] = {
+						["Arguments"] = "300",
+						["Invert"] = true,
+						["UniqueID"] = "3035457777",
+						["Event"] = "speed",
+						["Operator"] = "above",
+						["EditorExpand"] = true,
+						["ClassName"] = "event",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "group",
+				["UniqueID"] = "10983794",
+				["Name"] = "kunai",
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["URL"] = "https://github.com/NAARS290/pac3-cont/blob/master/NARUTO%20RUN.txt",
+												["ClassName"] = "custom_animation",
+												["AnimationType"] = "stance",
+												["UniqueID"] = "1518763786",
+											},
+										},
+									},
+									["self"] = {
+										["Arguments"] = "weapon_real_cs_knife",
+										["Invert"] = true,
+										["Event"] = "weapon_class",
+										["UniqueID"] = "2763451009",
+										["EditorExpand"] = true,
+										["ClassName"] = "event",
+									},
+								},
+							},
+							["self"] = {
+								["Event"] = "is_crouching",
+								["EditorExpand"] = true,
+								["UniqueID"] = "858188763",
+								["ClassName"] = "event",
+							},
+						},
+					},
+					["self"] = {
+						["Arguments"] = "300",
+						["Invert"] = true,
+						["UniqueID"] = "471809556",
+						["Event"] = "speed",
+						["Operator"] = "above",
+						["EditorExpand"] = true,
+						["ClassName"] = "event",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "group",
+				["UniqueID"] = "150788535",
+				["Name"] = "Knife",
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["URL"] = "https://github.com/NAARS290/pac3-cont/blob/master/NARUTO%20RUN.txt",
+												["ClassName"] = "custom_animation",
+												["AnimationType"] = "stance",
+												["UniqueID"] = "999832270",
+											},
+										},
+									},
+									["self"] = {
+										["Arguments"] = "weapon_hands",
+										["Invert"] = true,
+										["Event"] = "weapon_class",
+										["UniqueID"] = "1826278702",
+										["EditorExpand"] = true,
+										["ClassName"] = "event",
+									},
+								},
+							},
+							["self"] = {
+								["Event"] = "is_crouching",
+								["EditorExpand"] = true,
+								["UniqueID"] = "3632578151",
+								["ClassName"] = "event",
+							},
+						},
+					},
+					["self"] = {
+						["Arguments"] = "300",
+						["Invert"] = true,
+						["UniqueID"] = "4209242086",
+						["Event"] = "speed",
+						["Operator"] = "above",
+						["EditorExpand"] = true,
+						["ClassName"] = "event",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "group",
+				["UniqueID"] = "501331905",
+				["Name"] = "hands",
+			},
+		},
+		[4] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["URL"] = "https://github.com/NAARS290/pac3-cont/blob/master/NARUTO%20RUN.txt",
+												["ClassName"] = "custom_animation",
+												["AnimationType"] = "stance",
+												["UniqueID"] = "1518763786",
+											},
+										},
+									},
+									["self"] = {
+										["Arguments"] = "none",
+										["Invert"] = true,
+										["Event"] = "weapon_class",
+										["UniqueID"] = "2763451009",
+										["EditorExpand"] = true,
+										["ClassName"] = "event",
+									},
+								},
+							},
+							["self"] = {
+								["Event"] = "is_crouching",
+								["EditorExpand"] = true,
+								["UniqueID"] = "858188763",
+								["ClassName"] = "event",
+							},
+						},
+					},
+					["self"] = {
+						["Arguments"] = "300",
+						["Invert"] = true,
+						["UniqueID"] = "471809556",
+						["Event"] = "speed",
+						["Operator"] = "above",
+						["EditorExpand"] = true,
+						["ClassName"] = "event",
+					},
+				},
+			},
+			["self"] = {
+				["Name"] = "none",
+				["ClassName"] = "group",
+				["UniqueID"] = "150788535",
+				["EditorExpand"] = true,
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "run",
+		["ClassName"] = "group",
+		["UniqueID"] = "1688307455",
+		["EditorExpand"] = true,
+	},
+},
+[3] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "3928601735",
+				["EditorExpand"] = true,
+				["HideEntity"] = true,
+				["ClassName"] = "entity",
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["BoneMerge"] = true,
+				["ClassName"] = "model",
+				["UniqueID"] = "787872557",
+				["Fullbright"] = true,
+				["Model"] = "models/pac/female/base_female.mdl",
+			},
+		},
+		[3] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "model",
+				["Position"] = Vector(4.572265625, -1.02734375, 0.002197265625),
+				["Size"] = 0.725,
+				["Fullbright"] = true,
+				["Model"] = "models/maxofs2d/hover_rings.mdl",
+				["UniqueID"] = "3666883584",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "my outfit",
+		["ClassName"] = "group",
+		["UniqueID"] = "2798760669",
+		["Description"] = "add parts to me!",
+	},
+},
